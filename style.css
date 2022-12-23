@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.userIcon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.userIcon img {
+    height: 40px;
+    width: auto;
+    border: 3px solid rgb(43, 41, 41);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 15px;
+}
+.nav a {
+    text-decoration: none;
+    color: rgba(32, 32, 32, 0.623);
+    transition: 0.5s;
+}
+.nav a:hover {
+    text-decoration: underline 5px solid pink;
+    color: black;
+}
+.Dentist-Title {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sono', sans-serif; text-transform: uppercase;
+    font-size: 20px;
+}
+.display-panel{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 20px;
+    margin-top: 225px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    border: 3px solid white;
+    background-color: rgba(253, 147, 165, 0.733);
+    transition: 1.2s;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sono', sans-serif; text-transform: uppercase;
+    border-radius: 10%;
+}
+
+.grid-item:hover {
+    scale: 1.1;
+    box-shadow: 10px 10px 15px;
+}
+.query-box {
+    display: flex;
+    margin-top: 30vh;
+    margin-left: 36vw;
+    width: 500px;
+    height: 150px;
+    align-items: center;
+    background-color: rgba(253, 147, 165, 0.733);
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0;
+    box-shadow: 20px 20px 15px black ;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.admin-box {
+    display: flex;
+    margin-top: 30vh;
+    margin-left: 36vw;
+    justify-content: center;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(253, 147, 165, 0.733);
+    padding-top: 0;
+    box-shadow: 20px 20px 15px black ;
+    border-radius: 10px;
+}
+#admin-button{
+    width: 150px; 
+    margin-top: 30px;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+#admin-button:hover{
+    transition: 0.5s;
+    filter: brightness(50%);
+}
+#submit-button:hover{
+    transition: 0.5s;
+    filter: brightness(50%);   
+}
+
+
